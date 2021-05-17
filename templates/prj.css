@@ -1,0 +1,49 @@
+body{
+    background-image: url(dia2.jpg);
+
+    background-color:darksalmon;
+    background-size: 1000px 1000px;
+}
+
+input[type=number ] {
+                border: 2px solid red;
+                border-radius: 4px;
+                box-sizing: border-box;
+                width: 500px;
+                height: 40px;
+                margin: 4px 0;
+                box-shadow:blueviolet;
+                font-size: medium;
+              }  
+input[type=submit]{
+                text-align: center;
+                font-size: medium;
+                background-color:lightslategray;
+                box-sizing:;
+                margin: 20 0 0 730px;
+                border-radius: 15px;
+                height: 50px;
+                font-weight: bold;
+
+              }              
+
+div{
+    background-image: url(diab.jpg);
+    font-size: large;
+    font-weight: bold;
+    background-size: 100% 500%;
+    text-align: center;
+    width: 800px  0px;  
+    margin: 15 0 0 200px;
+    
+}
+input:hover[type=submit]{
+    background-color:rebeccapurple;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}

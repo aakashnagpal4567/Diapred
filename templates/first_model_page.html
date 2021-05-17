@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Predict Diabetes</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/prj.css') }}">
+    </head>
+    <body>
+
+        <h1>DIAPRED APP</h1>
+        <form action="/data">
+                    <div >
+            <h2>PREDICT DIABETES</h2>
+            <div>Number of times pregnant :   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp <input type="number" name="x1" required></div><br/>
+            <div>Plasma Glucose Concentration : <input type="number" name="x2" required></div> </br>
+            <div>Blood Pressure :  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    <input type="number" name="x3" required></div></br>
+            <div>Skin Thickness : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;<input type="number" name="x4" required></div></br>
+            <div>Insulin : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="x5" required></div></br>
+            <div>Body mass index(BMI) :   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" step="any" name="x6" required></div></br>
+            <div>Diabetes pedigree function :  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp <input type="number" step="any" name="x7" required></div></br>
+            <div>Age : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="x8" required></div></br>
+        
+        
+    </div>
+    <input type="Submit" value="Submit Your Data" method="get">
+        </form>
+    </body>
+</html>
